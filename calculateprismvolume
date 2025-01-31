@@ -1,0 +1,8 @@
+//calculate the ""volume" of an equilateral triangle prism from the "length of one side of the triangle" and the length of the flat edge
+
+function calculateVolume (length, height){
+    let volume = Math.sqrt(3/4)*length**2*height;
+    return volume;
+}
+
+export {calculateVolume}
